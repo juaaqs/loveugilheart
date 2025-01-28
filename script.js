@@ -77,7 +77,7 @@ var init = function () {
             q: ~~(rand() * heartPointsCount),
             D: 2 * (i % 2) - 1,
             force: 0.2 * rand() + 0.7,
-            f: "hsl(330, 88.70%, 72.20%)",
+            f: "hsl(0, 87.20%, 45.90%)",
             trace: []
         };
         for (var k = 0; k < traceCount; k++) e[i].trace[k] = {x: x, y: y};
